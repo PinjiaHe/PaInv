@@ -16,7 +16,7 @@ To set up language parsers:
 + Unzip the file and open the folder.
 + Run `java -Xmx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -serverProperties StanfordCoreNLP-chinese.properties -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9001  -port 9001 -timeout 15000`
 
-If you want to filter using sentence embeddings, run [install_USE.sh](./PaInv-Replace/install_USE.sh#L171) before running the main code. This will install [universal sentence encoder](https://tfhub.dev/google/universal-sentence-encoder/1) in your machine.
+If you want to filter using sentence embeddings, run [install_USE.sh](./install_USE.sh#L171) before running the main code. This will install [universal sentence encoder](https://tfhub.dev/google/universal-sentence-encoder/1) in your machine.
 
 
 ### Template in the translation error examples: :telescope: 
